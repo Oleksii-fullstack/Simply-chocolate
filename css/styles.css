@@ -1,0 +1,460 @@
+:root {
+    --black: #111;
+    --orange: #fd9222;
+    --violet: #1e1823;
+    --beige: #fcf1e0;
+    --light: #fafafa;
+    --gray: #4c4c4c;
+    --white: #fff;
+    --marker-body: #4c4c4c;
+    --marker-border: #eceded;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: var(--black);
+}
+
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
+
+/* #region header */
+.page-header {}
+
+.header-nav {}
+
+.logo-link {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.11;
+        letter-spacing: -0.03em;
+        color: #111;
+}
+
+.logo-part {
+    font-style: italic;
+}
+
+.logo-link-img {
+    width: 24px;
+    height: 24px;
+}
+
+.header-nav-list {}
+
+.header-nav-list-item {}
+
+.header-nav-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: -0.02em;
+        color: #111;
+}
+
+.social-list {}
+
+.social-list-item {}
+
+.social-link {}
+
+.social-img {
+    width: 24px;
+    height: 24px;
+}
+
+/* #endregion header */
+
+/* #region Hero */
+.hero {
+    background: rgba(17, 17, 17, 0.7);
+}
+
+.hero-title {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1.21;
+        letter-spacing: -0.03em;
+        color: #fff;
+}
+
+.btn-buy,
+.hero-link {
+        font-weight: 600;
+        font-size: 14px;
+        color: #fff;
+}
+
+.btn-buy {
+    background-color: #fd9222;
+}
+
+.btn-buy:active {
+    background-color: #fcf1e0;
+    color: #fd9222;
+}
+
+.hero-link:active {
+    color: #fd9222;
+}
+
+.hero-scroll {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.03em;
+        color: #fff;
+}
+
+/* #endregion Hero */
+
+/* #region Benefits */
+.benefits {
+    background-color: #1e1823;
+}
+
+.benefits-title {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 1.17;
+            letter-spacing: -0.03em;
+            text-transform: uppercase;
+            text-align: center;
+            color: #111;
+}
+
+.benefits-list {}
+
+.benefits-list-item {}
+
+.benefits-subtitle {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.22;
+        color: #fff;
+}
+
+.benefits-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        color: rgba(255, 255, 255, 0.7);
+}
+
+/* #endregion Benefits */
+
+/* #region Taste */
+.taste {}
+
+.taste-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #111;
+}
+
+.taste-title-part {
+    color: #fd9222;
+}
+
+.taste-list {}
+
+.taste-list-item-orange {
+    background-color: #fd9222;
+}
+
+.taste-list-item-white {
+    background-color: #fff;
+}
+
+.taste-list-item-black {
+    background-color: #1e1823;
+}
+
+.taste-img {
+    width: 214px;
+    height: 160px;
+}
+
+.taste-list-item-subtitle-chet {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        color: #111;
+}
+
+.taste-list-item-subtitle-nechet {      
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #fff;
+}
+
+/* #endregion Taste */
+
+/* #region Made */
+.made {}
+
+.made-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #111;
+}
+
+.made-img {
+    width: 600px;
+    height: 400px;
+}
+
+.made-subtitle {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.33;
+        color: #111;
+}
+
+.made-list {
+    list-style-type: disc;
+}
+
+.made-list-item {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        color: #111;
+}
+
+/* #endregion Made */
+
+
+/* #region Products */
+.products {}
+
+.products-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #111;
+}
+
+.products-list {}
+
+.products-list-item {}
+
+.products-img {
+    width: 230px;
+    height: 201px;
+}
+
+.products-list-item-subtitle {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #111;
+}
+
+.products-list-item-text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: -0.02em;
+        color: rgba(17, 17, 17, 0.7);
+}
+
+.products-list-item-link {
+        font-weight: 600;
+        font-size: 14px;
+        color: #111;
+}
+
+/* #endregion Products */
+
+
+/* #region Sellers */
+.sellers {}
+
+.sellers-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #111;
+}
+
+.sellers-list {}
+
+.sellers-list-item {}
+
+.sellers-img {
+    width: 368px;
+    height: 464px;
+}
+
+.sellers-subtitle {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.33333;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #111;
+}
+
+
+/* #endregion Sellers */
+
+/* #region Chocolove */
+.chocolove {}
+
+.chocolove-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #111;
+}
+
+.chocolove-list {}
+
+.chocolove-list-item {
+    background-color: #fff;
+}
+
+.chocolove-img {
+    width: 80px;
+    height: 80px;
+}
+
+.chocolove-subtitle {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.33;
+        text-align: center;
+        color: #111;
+}
+
+.chocolove-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(17, 17, 17, 0.7);
+}
+
+.btn-review {
+        border: 1px solid #fd9222;
+        font-weight: 600;
+        font-size: 18px;
+        color: #111;
+}
+
+.btn-review:active {
+        background-color: #fd9222;
+        color: #fff;
+}
+
+/* #endregion Chocolove */
+
+/* #region Footer */
+.page-footer {
+    background-color: #1e1823;
+}
+
+.page-footer-title {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1.21429;
+        letter-spacing: -0.02em;
+        color: #fd9222;
+}
+
+.page-footer-title-part {
+    color: #fff;
+}
+
+.page-footer-subtitle {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28571;
+        color: #fff;
+}
+
+.footer-social-list {}
+
+.footer-social-list-item {}
+
+.footer-social-link {}
+
+.footer-social-img {
+    color: #fff;
+    width: 24px;
+    height: 24px;
+}
+
+.contacts {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.29;
+        color: #fff;
+}
+
+.contacts-link-tel,
+.contacts-link-mail {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fff;
+}
+
+.footer-nav {}
+
+.footer-nav-list {}
+
+.footer-nav-list-item {}
+
+.footer-nav-list-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14286;
+        letter-spacing: -0.02em;
+        color: #fff;
+}
+
+/* #endregion Footer */
