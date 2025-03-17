@@ -55,7 +55,17 @@ button {
 /* #region header */
 .page-header {}
 
-.header-nav {}
+.page-header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.header-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
 
 .logo-link {
         font-weight: 700;
@@ -66,6 +76,7 @@ button {
         display: block;
         padding-top: 30px;
         padding-bottom: 30px;
+        margin-right: 365px;
 }
 
 .logo-part {
@@ -77,7 +88,12 @@ button {
     height: 24px;
 }
 
-.header-nav-list {}
+.header-nav-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+}
 
 .header-nav-list-item {}
 
@@ -92,7 +108,13 @@ button {
         padding-bottom: 32px;
 }
 
-.social-list {}
+.social-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        margin-left: auto;
+}
 
 .social-list-item {
         width: 40px;
@@ -126,20 +148,22 @@ button {
 
 /* #region Hero */
 .hero {
-    
+        margin-bottom: 80px;
 }
 
 .hero .container {
         background-color: rgba(17, 17, 17, 0.7);
-        padding-top: 380px;
-        padding-top: 40px;
+        padding-top: 381px;
+        padding-bottom: 40px;
         border-radius: 30px;
         padding-left: 40px;
+        padding-right: 40px;
         background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)), url(../images/bg/hero-bg@2x.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        
-
+        background-position: center center;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .hero-title {
@@ -148,6 +172,8 @@ button {
         line-height: 1.21;
         letter-spacing: -0.03em;
         color: #fff;
+        max-width: 484px;
+        margin-bottom: 32px;
 }
 
 .btn-buy,
@@ -231,6 +257,11 @@ button {
     background-color: #1e1823;
 }
 
+.benefits .container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+}
+
 .benefits-title {
             font-weight: 600;
             font-size: 24px;
@@ -241,9 +272,22 @@ button {
             color: #111;
 }
 
-.benefits-list {}
+.benefits-list {
+        display: flex;
+}
 
 .benefits-list-item {}
+
+.benefits-icon-wrapper {
+        width: 62px;
+        height: 62px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 365px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 22px;
+}
 
 .benefits-subtitle {
         font-weight: 600;
@@ -265,6 +309,11 @@ button {
 /* #region Taste */
 .taste {}
 
+.taste .container {
+        padding-top: 120px;
+        padding-bottom: 60px;
+}
+
 .taste-title {
         font-weight: 600;
         font-size: 24px;
@@ -279,7 +328,10 @@ button {
     color: #fd9222;
 }
 
-.taste-list {}
+.taste-list {
+        display: flex;
+        flex-wrap: wrap;
+}
 
 .taste-list-item-orange {
     background-color: #fd9222;
@@ -319,6 +371,11 @@ button {
 
 /* #region Made */
 .made {}
+
+.made .container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+}
 
 .made-title {
         font-weight: 600;
@@ -360,6 +417,11 @@ button {
 /* #region Products */
 .products {}
 
+.products .container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+}
+
 .products-title {
         font-weight: 600;
         font-size: 24px;
@@ -370,7 +432,10 @@ button {
         color: #111;
 }
 
-.products-list {}
+.products-list {
+        display: flex;
+        flex-wrap: wrap;
+}
 
 .products-list-item {}
 
@@ -408,6 +473,11 @@ button {
 /* #region Sellers */
 .sellers {}
 
+.sellers .container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+}
+
 .sellers-title {
         font-weight: 600;
         font-size: 24px;
@@ -418,7 +488,9 @@ button {
         color: #111;
 }
 
-.sellers-list {}
+.sellers-list {
+        display: flex;
+}
 
 .sellers-list-item {}
 
@@ -442,6 +514,11 @@ button {
 /* #region Chocolove */
 .chocolove {}
 
+.chocolove .container {
+        padding-top: 60px;
+        padding-bottom: 120px;
+}
+
 .chocolove-title {
         font-weight: 600;
         font-size: 24px;
@@ -452,7 +529,9 @@ button {
         color: #111;
 }
 
-.chocolove-list {}
+.chocolove-list {
+        display: flex;
+}
 
 .chocolove-list-item {
     background-color: #fff;
@@ -497,6 +576,11 @@ button {
 /* #region Footer */
 .page-footer {
     background-color: #1e1823;
+}
+
+.page-footer .container {
+        padding-top: 50px;
+        padding-bottom: 50px;
 }
 
 .page-footer-title {
