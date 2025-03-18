@@ -374,10 +374,11 @@
                   alt="CHOCOLATE WITH NUTS"
                 />
                 <p class="overlay-text">
-                  Chocolate with fruit is an unbeatable combination of two of
-                  the tastiest things in the world. This dessert combines
-                  delicate and aromatic chocolate with fresh and juicy fruits,
-                  creating a true poetry of taste.
+                  Chocolate with nuts is a delectable combination that brings
+                  together the smoothness of chocolate and the crunchiness of
+                  nuts. Whether it's milk chocolate, dark chocolate, or white
+                  chocolate, the addition of nuts adds a whole new dimension of
+                  flavor and texture.
                 </p>
               </div>
               <h3 class="sellers-subtitle">CHOCOLATE WITH NUTS</h3>
@@ -406,10 +407,11 @@
                   alt="DARK CHOCOLATE"
                 />
                 <p class="overlay-text">
-                  Chocolate with fruit is an unbeatable combination of two of
-                  the tastiest things in the world. This dessert combines
-                  delicate and aromatic chocolate with fresh and juicy fruits,
-                  creating a true poetry of taste.
+                  Dark chocolate is a rich and indulgent treat that is beloved
+                  by many chocolate enthusiasts. It is made from cocoa beans,
+                  which are roasted, ground, and then processed to produce
+                  chocolate liquor. Dark chocolate contains a higher percentage
+                  of cocoa solids compared to milk chocolate.
                 </p>
               </div>
               <h3 class="sellers-subtitle">DARK CHOCOLATE</h3>
@@ -542,5 +544,67 @@
         </nav>
       </div>
     </footer>
+
+    <!-- Modal window -->
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-close-btn" type="button">x</button>
+        <p class="modal-title">LEAVE A REVIEW ABOUT OUR CHOCOLATE</p>
+
+        <form autocomplete="off">
+          <div class="modal-wrapper">
+            <label class="modal-label" for="name">Name</label>
+            <div class="modal-field">
+              <input class="modal-input" type="text" id="name" name="name" />
+              <!-- <svg class="modal-icon" widht="" height="">
+                    <use href=""></use>
+                  </svg> -->
+            </div>
+          </div>
+
+          <div class="modal-wrapper">
+            <label class="modal-label" for="email">Email</label>
+            <div class="modal-field">
+              <input class="modal-input" type="email" id="email" name="email" />
+              <!-- <svg class="modal-icon" widht="" height="">
+                    <use href=""></use>
+                  </svg> -->
+            </div>
+          </div>
+
+          <div class="modal-wrapper">
+            <label class="modal-label" for="phone">Phone number</label>
+            <div class="modal-field">
+              <input class="modal-input" type="tel" id="phone" name="phone" />
+              <!-- <svg class="modal-icon" widht="" height="">
+                    <use href=""></use>
+                  </svg> -->
+            </div>
+          </div>
+
+          <div class="modal-wrapper">
+            <label class="modal-label" for="comment">Comment</label>
+            <div class="modal-field">
+              <textarea class="modal-textarea" id="comment" name="comment">
+              </textarea>
+            </div>
+          </div>
+
+          <div class="checkbox-wrapper">
+            <input
+              class="checkbox-input"
+              type="checkbox"
+              id="accept"
+              name="accept"
+            />
+            <label class="modal-label-accept" for="accept"
+              >I accept the terms and conditions of the
+              <a class="privacy-link" href="#">Privacy Policy</a></label
+            >
+          </div>
+          <button class="modal-submit-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
